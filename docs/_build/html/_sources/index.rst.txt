@@ -10,11 +10,10 @@ Welcome to SoliRedocs's documentation!
    :maxdepth: 2
    :caption: Contents:
 
-    groups_manager
+   manager
 
 Indices and tables
 ==================
 
 * :ref:`genindex`
-* :ref:`modindex`
 * :ref:`search`
