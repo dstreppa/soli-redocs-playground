@@ -7,4 +7,4 @@ Manager contract
 
 .. autosolcontract:: Manager
     :noindex:
-    :members: token, AddedGroup
+    :members: token, AddedGroup, constructor, addGroup, getFlag

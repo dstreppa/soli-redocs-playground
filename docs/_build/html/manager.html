@@ -64,6 +64,60 @@ address <em>public </em><code class="descname">token</code></dt>
 </table>
 </dd></dl>
 
+<dl class="constructor">
+<dt>
+<code class="descname">constructor</code><span class="sig-paren">(</span><em>address _token</em><span class="sig-paren">)</span><br /> <em>public</em><br /></dt>
+<dd><p>Constructor</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first last simple">
+<li><strong>_token</strong> – The NemoGrid token address</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt>
+<em>function </em><code class="descname">addGroup</code><span class="sig-paren">(</span><em>address _dso</em><span class="sig-paren">)</span><br /> onlyOwner<br /> <em>public</em><br /></dt>
+<dd><p>Add a markets group, defined by the couple (dso, token)</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first last simple">
+<li><strong>_dso</strong> – The DSO wallet</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt>
+<em>function </em><code class="descname">getFlag</code><span class="sig-paren">(</span><em>address _dso</em><span class="sig-paren">)</span><br /> <em>view</em><br /> <em>public</em><br /> <em>returns </em><span class="sig-paren">(</span><em>bool</em><span class="sig-paren">)</span><br /></dt>
+<dd><p>Return if the markets group exists</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>_dso</strong> – The DSO wallet</li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return:</th><td class="field-body"><p class="first last">true if the group exists, false otherwise</p>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
 </dd></dl>
 
 </div>
