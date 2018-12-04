@@ -6,6 +6,11 @@
 Welcome to SoliRedocs's documentation!
 ======================================
 
+.. image:: img/solidity.png
+    :scale: 50%
+    :align: center
+    :alt: Alternative text
+
 .. toctree::
    :maxdepth: 2
    :caption: Contents:
